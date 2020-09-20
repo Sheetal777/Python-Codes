@@ -1,5 +1,4 @@
-# github-documents
+# Python codes
 
-Here I'll have random documentation for new GitHub users.
+As the name, Here I'll put some basic codes in Python.
 (I'm a new but active user)
-But this community gets better when we combine and work together. 
