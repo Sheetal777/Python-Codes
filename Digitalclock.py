@@ -1,4 +1,4 @@
-# use Tkinter to show a digital clock
+#I have used Tkinter to make a digital clock
 import time
 from tkinter import *
 
@@ -11,18 +11,15 @@ root.resizable(0,0)
 label = Label(root, font=("Arial", 30, 'bold'), bg="blue", fg="powder blue", bd =30)
 label.grid(row =0, column=1)
 
-def dig_clock():
+def digclock():
     
     text_input = time.strftime("%H:%M:%S") # get the current local time from the PC
-    
-    label.config(text=text_input)
-    
-    # calls itself every 200 milliseconds
     # to update the time display as needed
-    # could use >200 ms, but display gets jerky
+    # call itself every 200 milliseconds
+    label.config(text=text_input)
     
     label.after(200, clack)
 
-dig_clock()
+digclock()
 
 root.mainloop()
