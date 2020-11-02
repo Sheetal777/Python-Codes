@@ -1,3 +1,5 @@
+# It just calculates, but in Python
+
 def add(x, y):
     return x + y
 
